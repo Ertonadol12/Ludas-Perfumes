@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
               information when you visit our website or make a purchase.
             </p>
 
-            <h2>Information We Collect</h2>
+            <h2 className="font-bold">Information We Collect</h2>
             <p>
               We collect information that you provide directly to us, including:
             </p>
@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
               <li>Communications between you and Ludas Perfumes</li>
             </ul>
 
-            <h2>How We Use Your Information</h2>
+            <h2 className="font-bold">How We Use Your Information</h2>
             <p>
               We use the information we collect for various purposes, including
               to:
@@ -65,7 +65,7 @@ const PrivacyPolicy = () => {
               <li>Comply with legal obligations</li>
             </ul>
 
-            <h2>Information Sharing</h2>
+            <h2 className="font-bold">Information Sharing</h2>
             <p>
               We do not sell or rent your personal information to third parties.
               We may share your information with:
@@ -88,14 +88,14 @@ const PrivacyPolicy = () => {
               confidentiality and security of your information.
             </p>
 
-            <h2>Cookies and Tracking Technologies</h2>
+            <h2 className="font-bold">Cookies and Tracking Technologies</h2>
             <p>
               We use cookies and similar technologies to enhance your browsing
               experience, analyze site traffic, and personalize content. You can
               control cookies through your browser settings.
             </p>
 
-            <h2>Your Rights</h2>
+            <h2 className="font-bold">Your Rights</h2>
             <p>Depending on your location, you may have the right to:</p>
             <ul>
               <li>Access and receive a copy of your personal information</li>
@@ -110,7 +110,7 @@ const PrivacyPolicy = () => {
               privacy@ludasperfumes.com.
             </p>
 
-            <h2>Data Security</h2>
+            <h2 className="font-bold">Data Security</h2>
             <p>
               We implement appropriate security measures to protect your
               personal information from unauthorized access, alteration,
@@ -118,21 +118,21 @@ const PrivacyPolicy = () => {
               over the Internet or electronic storage is 100% secure.
             </p>
 
-            <h2>Children's Privacy</h2>
+            <h2 className="font-bold">Children's Privacy</h2>
             <p>
               Our website is not intended for children under the age of 16. We
               do not knowingly collect personal information from children under
               16.
             </p>
 
-            <h2>Changes to This Policy</h2>
+            <h2 className="font-bold">Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. We will
               notify you of any changes by posting the new policy on this page
               and updating the "Last updated" date.
             </p>
 
-            <h2>Contact Us</h2>
+            <h2 className="font-bold">Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, please
               contact us at:
@@ -142,11 +142,11 @@ const PrivacyPolicy = () => {
               <br />
               123 Fragrance Avenue
               <br />
-              New York, NY 10001
+              Ethiopia, Addis Ababa 1000
               <br />
               Email: privacy@ludasperfumes.com
               <br />
-              Phone: +1 (555) 123-4567
+              Phone: +251 (9) 28 252 850
             </address>
           </div>
         </div>
