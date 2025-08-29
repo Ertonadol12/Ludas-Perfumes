@@ -1,5 +1,6 @@
 // TermsOfService.jsx
 import React, { useEffect } from "react";
+import './index.css'
 
 const TermsOfService = () => {
   useEffect(() => {
