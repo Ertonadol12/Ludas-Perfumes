@@ -20,6 +20,10 @@ const Home = () => {
   const { addToCart } = useCart();
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   //Cart
   const handleAddToCart = (fragrance) => {
   if (!isAuthenticated) {

@@ -1,11 +1,15 @@
 // Cart.jsx
-import React from 'react';
+import React, { useEffect } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { Trash2, Plus, Minus } from 'lucide-react';
 
 const Cart = () => {
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   const { isAuthenticated } = useAuth();
   const { cartItems, updateQuantity, removeFromCart, getCartTotal } = useCart();
   const navigate = useNavigate();

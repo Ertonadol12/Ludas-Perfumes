@@ -1,5 +1,5 @@
 // SearchResults.jsx
-import React from 'react';
+import React, { useEffect } from "react";
 import { useSearch } from '../context/SearchContext';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -12,6 +12,10 @@ const SearchResults = () => {
   const { addToCart } = useCart();
   const navigate = useNavigate();
 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   //Cart
   const handleAddToCart = (fragrance) => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSearch } from '../context/SearchContext';
 import fragranceData from '../data/fragranceData';
@@ -12,6 +12,10 @@ const Collections = () => {
   const { isAuthenticated } = useAuth();
   const { addToCart } = useCart();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   //Cart
   const handleAddToCart = (fragrance) => {
