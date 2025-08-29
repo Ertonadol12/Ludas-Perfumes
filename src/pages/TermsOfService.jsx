@@ -26,12 +26,14 @@ const TermsOfService = () => {
 
         {/* Terms Content */}
         <div className="bg-white rounded-lg shadow-md p-8">
-          <div className="prose prose-purple max-w-none py-4">
+          <div className="prose prose-purple max-w-none">
             <p className="lead">
               Welcome to Ludas Perfumes. These Terms of Service govern your use
               of our website and services. By accessing or using our website,
               you agree to be bound by these terms.
             </p>
+            <br />
+            <br />
 
             <h2 className="font-bold">Eligibility</h2>
             <p>
@@ -39,6 +41,7 @@ const TermsOfService = () => {
               website, you represent and warrant that you are of legal age to
               form a binding contract and meet all eligibility requirements.
             </p>
+            <br />
 
             <h2 className="font-bold">Account Registration</h2>
             <p>
@@ -47,6 +50,7 @@ const TermsOfService = () => {
               of your account credentials and for all activities that occur
               under your account.
             </p>
+            <br />
 
             <h2 className="font-bold">Products and Pricing</h2>
             <p>
@@ -56,11 +60,13 @@ const TermsOfService = () => {
               to correct any errors and to change or update information at any
               time without notice.
             </p>
+            <br />
             <p>
               All prices are in US dollars and are subject to change without
               notice. We are not responsible for typographical errors regarding
               price or product information.
             </p>
+            <br />
 
             <h2 className="font-bold">Orders and Acceptance</h2>
             <p>
@@ -68,6 +74,7 @@ const TermsOfService = () => {
               reserve the right to accept or decline your order for any reason.
               Order acceptance occurs when we ship the product(s) to you.
             </p>
+            <br />
 
             <h2 className="font-bold">Payment</h2>
             <p>
@@ -76,6 +83,7 @@ const TermsOfService = () => {
               warrant that you have the legal right to use any payment method
               you provide.
             </p>
+            <br />
 
             <h2 className="font-bold">Shipping and Delivery</h2>
             <p>
@@ -84,6 +92,7 @@ const TermsOfService = () => {
               our control. Risk of loss passes to you upon delivery to the
               carrier.
             </p>
+            <br />
 
             <h2 className="font-bold">Returns and Refunds</h2>
             <p>
@@ -91,6 +100,7 @@ const TermsOfService = () => {
               refunds. We reserve the right to modify our return policy at any
               time.
             </p>
+            <br />
 
             <h2 className="font-bold">Intellectual Property</h2>
             <p>
@@ -98,9 +108,11 @@ const TermsOfService = () => {
               images, and software, is the property of Ludas Perfumes or its
               content suppliers and is protected by intellectual property laws.
             </p>
+            <br />
 
             <h2 className="font-bold">User Conduct</h2>
             <p>You agree not to:</p>
+            <br />
             <ul>
               <li>Use our website for any illegal purpose</li>
               <li>Violate any laws in your jurisdiction</li>
@@ -113,6 +125,7 @@ const TermsOfService = () => {
                 Attempt to gain unauthorized access to any part of our website
               </li>
             </ul>
+            <br />
 
             <h2 className="font-bold">Limitation of Liability</h2>
             <p>
@@ -121,6 +134,7 @@ const TermsOfService = () => {
               punitive damages resulting from your use of or inability to use
               our website or products.
             </p>
+            <br />
 
             <h2 className="font-bold">Indemnification</h2>
             <p>
@@ -128,12 +142,14 @@ const TermsOfService = () => {
               affiliates from any claims, damages, losses, or expenses arising
               from your use of our website or violation of these terms.
             </p>
+            <br />
 
             <h2 className="font-bold">Governing Law</h2>
             <p>
               These Terms of Service are governed by the laws of the State of
               New York, without regard to its conflict of law principles.
             </p>
+            <br />
 
             <h2 className="font-bold">Changes to Terms</h2>
             <p>
@@ -141,11 +157,14 @@ const TermsOfService = () => {
               upon posting to our website. Your continued use of our website
               after changes constitutes acceptance of the modified terms.
             </p>
+            <br />
+            <br />
 
             <h2 className="font-bold">Contact Information</h2>
             <p>
               For questions about these Terms of Service, please contact us at:
             </p>
+            <br />
             <address className="not-italic">
               Ludas Perfumes
               <br />
