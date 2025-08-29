@@ -1,5 +1,5 @@
-// Update your App.jsx to include these new routes
-import React from "react";
+// App.jsx
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -21,13 +21,32 @@ import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";
 
 const App = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isShopOpen, setIsShopOpen] = useState(false);
+
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false);
+    setIsShopOpen(false);
+  };
+
+  const closeShopDropdown = () => {
+    setIsShopOpen(false);
+  };
+
   return (
     <AuthProvider>
       <CartProvider>
         <SearchProvider>
           <Router>
             <div className="App">
-              <Navbar />
+              <Navbar
+                isMenuOpen={isMenuOpen}
+                setIsMenuOpen={setIsMenuOpen}
+                isShopOpen={isShopOpen}
+                setIsShopOpen={setIsShopOpen}
+                closeMobileMenu={closeMobileMenu}
+                closeShopDropdown={closeShopDropdown}
+              />
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/shop/:category" element={<Shop />} />
@@ -43,7 +62,10 @@ const App = () => {
                 <Route path="/privacy" element={<PrivacyPolicy />} />
                 <Route path="/terms" element={<TermsOfService />} />
               </Routes>
-              <Footer />
+              <Footer
+                closeMobileMenu={closeMobileMenu}
+                closeShopDropdown={closeShopDropdown}
+              />
             </div>
           </Router>
         </SearchProvider>
