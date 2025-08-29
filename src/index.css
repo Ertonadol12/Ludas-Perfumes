@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes spin-pendulum {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-45deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(45deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  .animate-spin-pendulum {
+    animation: spin-pendulum 4s infinite;
+    transform-origin: center;
+  }
+
+   /* Add single bounce animation */
+@keyframes single-bounce {
+  0%, 100% {
+  transform: translateY(0);
+    }
+  50% {
+  transform: translateY(-25px);
+    }
+  }
+  .hover-single-bounce:hover {
+  animation: single-bounce 1s ease-in-out 1;
+  }
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@keyframes single-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+.hover-single-bounce:hover {
+  animation: single-bounce 1s ease-in-out 1;
+}
+
+}
